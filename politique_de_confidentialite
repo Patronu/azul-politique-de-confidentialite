@@ -1,68 +1,93 @@
 POLITIQUE DE CONFIDENTIALITÉ
-Dernière mise à jour : 02/12/2025
-Nom de l’app : Azul – Apprends le kabyle
+Dernière mise à jour : 18/02/2026
+Nom de l’app : Azul – Apprendre le kabyle
 Éditeur : Lucie GEHIN
 Contact : azulapp.contact@gmail.com
 
 1. Introduction
-La présente politique de confidentialité explique comment l’application Azul – Apprends le kabyle (« l’Application ») traite les données des utilisateurs.
-Cette version concerne uniquement la version actuelle de l’Application, gratuite, sans compte utilisateur et sans abonnement.
+La présente politique de confidentialité explique comment l’application Azul – Apprendre le kabyle (« l’Application ») traite les données personnelles des utilisateurs.
+L’Application est accessible gratuitement. Certaines fonctionnalités nécessitent la création d’un compte utilisateur.
 
 2. Données collectées
-L’Application ne collecte aucune donnée personnelle automatiquement.
-La seule information susceptible d’être collectée est celle transmise volontairement par l’utilisateur lorsqu’il utilise le formulaire « Contactez-nous ».
-Lorsque vous nous contactez via le formulaire :
-Nous pouvons uniquement recevoir les informations indiquées dans le formulaire :
-    • l’objet et le contenu du message,
-    • votre nom et votre adresse e-mail si vous souhaitez les ajouter.
+2.1 Création de compte
+Lorsque vous créez un compte, les données suivantes sont collectées :
+    • Adresse e-mail
+    • Mot de passe (chiffré via Supabase Auth)
+L’adresse e-mail est vérifiée via un e-mail de confirmation.
+Aucune autre donnée personnelle (nom, photo, adresse, téléphone, etc.) n’est collectée.
+
+2.2 Données liées à l’apprentissage (utilisateurs connectés)
+Si vous choisissez de créer un compte, les données suivantes sont enregistrées sur nos serveurs :
+    • Mots appris
+    • Dates et heures d’apprentissage
+Ces données sont associées à votre identifiant utilisateur.
+Les utilisateurs qui n’ont pas créé de compte conservent leur progression uniquement en local sur leur appareil.
+
+2.3 Données transmises volontairement
+Si vous utilisez le formulaire « Contactez-nous », nous pouvons recevoir :
+    • Le contenu de votre message
+    • Votre nom et adresse e-mail si vous les indiquez
 Ces données sont utilisées uniquement pour répondre à votre demande.
-Ce que nous NE collectons PAS :
-    • Données de navigation ou d’utilisation
-    • Identifiants de l’appareil
-    • Données de localisation
-    • Publicité ou traceurs
-    • Historique d’apprentissage en ligne
-    • Comptes ou mots de passe
-    • Cookies
-L’Application ne propose aucune publicité, aucun suivi et aucune analyse statistique des utilisateurs.
 
 3. Données stockées localement
-L’Application stocke uniquement sur votre appareil :
-    • votre progression dans l’apprentissage et la mémorisation des mots, phrases et conjugaisons.
-Ces données ne quittent jamais votre téléphone et ne sont transmises à aucun serveur.
+L’Application stocke sur votre appareil :
+    • Votre progression d’apprentissage
+    • Vos données pédagogiques locales
+Ces données ne sont pas transmises à nos serveurs si vous n’avez pas créé de compte.
 
 4. Utilisation de Supabase
-Supabase est utilisé uniquement pour fournir du contenu pédagogique (texte, audio).
-Important :
-    • L’Application effectue des requêtes en lecture seule.
-    • Aucun identifiant d’utilisateur n’est envoyé.
-    • Aucun profil n’est créé.
-    • Aucun suivi n’est effectué.
-    • Aucun usage analytique n’est fait.
-Supabase peut enregistrer des journaux techniques anonymes (ex : nombre de requêtes) mais ils ne permettent pas d’identifier un utilisateur.
+L’Application utilise les services de Supabase (hébergement situé dans l’Union européenne) pour :
+    • L’authentification des utilisateurs (Supabase Auth)
+    • Le stockage des données d’apprentissage
+    • L’hébergement des contenus pédagogiques (texte et audio)
+Supabase agit en tant que sous-traitant de données au sens du RGPD.
+Supabase peut enregistrer automatiquement certaines données techniques (ex : adresse IP, journaux de connexion) à des fins de sécurité et de fonctionnement du service.
+Nous :
+    • n’exploitons pas ces données,
+    • n’effectuons aucune analyse comportementale,
+    • ne réalisons aucun profilage.
 
-5. Conservation des données (formulaire contact)
-Les messages envoyés via le formulaire de contact peuvent être conservés temporairement le temps de fournir une réponse, puis sont supprimés.
-Vous pouvez demander la suppression immédiate à azulapp.contact@gmail.com.
+5. Base légale du traitement (RGPD)
+Les traitements reposent sur :
+    • L’exécution du contrat : fourniture du service lié au compte utilisateur
+    • Le consentement : création volontaire d’un compte
+    • L’intérêt légitime : sécurisation technique du service
 
-6. Partage des données
-Nous ne partageons aucune donnée avec des tiers.
-Aucun service publicitaire ou d’analyse n’est utilisé.
+6. Conservation des données
+    • Les données du compte sont conservées tant que le compte est actif.
+    • En cas de demande de suppression, les données sont supprimées sous 15 jours maximum.
+    • Les messages envoyés via le formulaire de contact sont conservés le temps de répondre, puis supprimés.
 
-7. Sécurité
-Nous mettons en œuvre les mesures techniques nécessaires pour protéger les données transmises via le formulaire de contact.
+7. Suppression du compte
+La suppression du compte peut être demandée à :
+azulapp.contact@gmail.com
+Toutes les données associées (email et progression en ligne) seront supprimées sous 15 jours.
 
-8. Droits des utilisateurs (RGPD)
-Conformément au RGPD, vous disposez des droits suivants :
-    • droit d’accès
-    • droit de rectification
-    • droit d’opposition
-    • droit d’effacement
-Pour exercer ces droits : azulapp.contact@gmail.com
+8. Partage des données
+Nous ne vendons, ne louons et ne partageons aucune donnée personnelle avec des tiers.
+Aucun service publicitaire, aucun traceur marketing et aucun outil d’analyse comportementale n’est utilisé.
 
-9. Modifications
-Cette politique pourra évoluer lors de l’introduction de nouvelles fonctionnalités (ex : version freemium, comptes utilisateurs, sauvegarde en ligne).
+9. Sécurité
+Nous mettons en œuvre les mesures techniques appropriées pour protéger les données personnelles.
+Les mots de passe sont chiffrés et ne sont jamais accessibles en clair.
 
-10. Contact
-Pour toute question :
-E-mail : azulapp.contact@gmail.com
+10. Transferts internationaux
+Les données sont hébergées dans l’Union européenne.
+L’Application est accessible à l’international.
+
+11. Droits des utilisateurs (RGPD)
+Conformément au Règlement Général sur la Protection des Données (RGPD), vous disposez des droits suivants :
+    • Droit d’accès
+    • Droit de rectification
+    • Droit d’effacement
+    • Droit d’opposition
+    • Droit à la limitation du traitement
+Pour exercer vos droits :
+azulapp.contact@gmail.com
+
+12. Données des mineurs
+L’Application ne met pas en place de vérification spécifique de l’âge.
+Si vous êtes parent ou représentant légal et estimez que votre enfant nous a transmis des données personnelles, vous pouvez nous contacter pour en demander la suppression.
+
+13. Modifications
+La présente politique peut être mise à jour en cas d’évolution des fonctionnalités ou des obligations légales.
